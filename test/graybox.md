@@ -1,4 +1,4 @@
-##  ray Box Testing
+##  Gray Box Testing
 Gray box testing menggabungkan teknik black box dan white box, di mana pengujian dilakukan dengan pengetahuan terbatas tentang struktur program. Ini biasanya dilakukan oleh tester dengan akses ke kode sebagian atau dokumentasi.
 
 ### Fokus
