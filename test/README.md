@@ -1,4 +1,4 @@
-# Pengujian Aplikasi Math Quiz Game dan Interaksi antara Programer dan Pentester
+# Pengujian Web Quiz Game dan Interaksi antara Programer dan Pentester
 
 ## 🧪 Tujuan Pengujian
 
