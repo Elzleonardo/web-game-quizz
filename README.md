@@ -24,25 +24,24 @@ Repositori ini dibuat untuk mendokumentasikan proses **pengujian perangkat lunak
 | 2  | Muh. Suara tansa      | 20221310026       | 
 
 🗂 Struktur Folder Proyek
-
 math-quiz-game/
-├── index.html              # Halaman utama aplikasi quiz
+├── index.html              # Halaman utama permainan kuis
 ├── login.html              # Halaman login pengguna
-├── dashboard.html          # Halaman dashboard skor dan navigasi
+├── dashboard.html          # Halaman dashboard setelah login
 ├── assets/
 │   ├── css/
-│   │   └── style.css       # Style utama aplikasi
+│   │   └── style.css       # File CSS untuk styling halaman
 │   └── js/
-│       ├── app.js         # Logika utama quiz
-│       └── auth.js        # Logika autentikasi login/logout
+│       ├── app.js          # Logika permainan kuis (generate soal, skor, validasi)
+│       └── auth.js         # Logika autentikasi login dan logout
+├── images/                 # Folder ikon atau ilustrasi kuis
 ├── data/
-│   └── users.json          # Simulasi data pengguna (jika digunakan)
-├── images/                 # Folder untuk ikon atau ilustrasi
+│   └── users.json          # Simulasi data pengguna dalam format JSON
 ├── tests/
-│   ├── whitebox-tests.md   # Catatan dan hasil pengujian white box
-│   ├── blackbox-tests.md   # Catatan dan hasil pengujian black box
-│   └── graybox-tests.md    # Catatan dan hasil pengujian gray box
-├── README.md               # Dokumentasi utama proyek
+│   ├── whitebox-tests.md   # Dokumentasi pengujian white box
+│   ├── blackbox-tests.md   # Dokumentasi pengujian black box
+│   └── graybox-tests.md    # Dokumentasi pengujian gray box
+└── README.md               # Dokumentasi utama proyek
 
 - 🎮 **Kuis Matematika**
   - Soal acak: tambah (`+`), kurang (`-`), kali (`×`), bagi (`÷`)
