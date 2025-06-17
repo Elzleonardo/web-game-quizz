@@ -23,24 +23,22 @@ Repositori ini dibuat untuk mendokumentasikan proses **pengujian perangkat lunak
 | 1  | Elsa Nur Aripin       | 20221310035  | 
 | 2  | Muh. Suara tansa      | 20221310026       | 
 
-math-quiz-game/
-├── index.html              # Halaman utama permainan kuis
-├── login.html              # Halaman login pengguna
-├── dashboard.html          # Halaman dashboard setelah login
-├── assets/
-│   ├── css/
-│   │   └── style.css       # File CSS untuk styling halaman
-│   └── js/
-│       ├── app.js          # Logika permainan kuis (generate soal, skor, validasi)
-│       └── auth.js         # Logika autentikasi login dan logout
-├── images/                 # Folder ikon atau ilustrasi kuis
-├── data/
-│   └── users.json          # Simulasi data pengguna dalam format JSON
-├── tests/
-│   ├── whitebox-tests.md   # Dokumentasi pengujian white box
-│   ├── blackbox-tests.md   # Dokumentasi pengujian black box
-│   └── graybox-tests.md    # Dokumentasi pengujian gray box
-└── README.md               # Dokumentasi utama proyek
+# 📁 Struktur Folder Proyek - Web Game Quiz Matematika
+
+| Folder/File             | Deskripsi                                                  |
+|-------------------------|------------------------------------------------------------|
+| `index.html`            | Halaman utama kuis yang menampilkan soal secara acak       |
+| `login.html`            | Form login sederhana untuk masuk ke permainan              |
+| `dashboard.html`        | Menampilkan data skor dan tombol ke kuis                   |
+| `assets/css/style.css`  | Styling tampilan semua halaman                             |
+| `assets/js/app.js`      | Script utama logika soal kuis dan validasi jawaban         |
+| `assets/js/auth.js`     | Logika proses login/logout dan pengecekan sesi             |
+| `images/`               | Ikon, ilustrasi, atau gambar dekoratif                     |
+| `data/users.json`       | Data akun pengguna (dummy) sebagai pengganti database      |
+| `tests/whitebox-tests.md` | Dokumentasi hasil pengujian white box                    |
+| `tests/blackbox-tests.md` | Dokumentasi hasil pengujian black box                    |
+| `tests/graybox-tests.md`  | Dokumentasi hasil pengujian gray box                     |
+| `README.md`             | Dokumentasi utama tentang struktur dan pengujian proyek    |
 
 - 🎮 **Kuis Matematika**
   - Soal acak: tambah (`+`), kurang (`-`), kali (`×`), bagi (`÷`)
