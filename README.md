@@ -23,6 +23,26 @@ Repositori ini dibuat untuk mendokumentasikan proses **pengujian perangkat lunak
 | 1  | Elsa Nur Aripin       | 20221310035  | 
 | 2  | Muh. Suara tansa      | 20221310026       | 
 
+🗂 Struktur Folder Proyek
+math-quiz-game/
+├── index.html              # Halaman utama aplikasi quiz
+├── login.html              # Halaman login pengguna
+├── dashboard.html          # Halaman dashboard skor dan navigasi
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Style utama aplikasi
+│   └── js/
+│       ├── app.js         # Logika utama quiz
+│       └── auth.js        # Logika autentikasi login/logout
+├── data/
+│   └── users.json          # Simulasi data pengguna (jika digunakan)
+├── images/                 # Folder untuk ikon atau ilustrasi
+├── tests/
+│   ├── whitebox-tests.md   # Catatan dan hasil pengujian white box
+│   ├── blackbox-tests.md   # Catatan dan hasil pengujian black box
+│   └── graybox-tests.md    # Catatan dan hasil pengujian gray box
+├── README.md               # Dokumentasi utama proyek
+
 - 🎮 **Kuis Matematika**
   - Soal acak: tambah (`+`), kurang (`-`), kali (`×`), bagi (`÷`)
   - Interface interaktif dengan penghitungan skor real-time
