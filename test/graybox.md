@@ -3,11 +3,6 @@ Gray box testing menggabungkan teknik black box dan white box, di mana pengujian
 
 ### Fokus
 - Integrasi alur login → dashboard → kuis
-- Penyimpanan skor di localStorage
-
-### Langkah
-- Cek devtools → Application → localStorage
-- Pantau perubahan saat interaksi
 
 ### Tabel: Gray Box Testing Integrasi Login dan Quiz
 | No | Skenario                                               | Output yang Diharapkan                             | Status |
