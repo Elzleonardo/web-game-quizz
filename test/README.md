@@ -2,7 +2,7 @@
 
 ## 🧪 Tujuan Pengujian
 
-Tujuan dari dokumen ini adalah untuk menjelaskan proses pengujian perangkat lunak dari aplikasi Math Quiz Game menggunakan tiga pendekatan utama dalam pengujian: **White Box Testing**, **Black Box Testing**, dan **Gray Box Testing**. Pengujian ini bertujuan untuk menjamin kualitas, keandalan, dan keamanan aplikasi dalam berbagai aspek fungsionalitas.
+Tujuan dari dokumen ini adalah untuk menjelaskan proses pengujian perangkat lunak dari web Quiz Game menggunakan tiga pendekatan utama dalam pengujian: **White Box Testing**, **Black Box Testing**, dan **Gray Box Testing**. Pengujian ini bertujuan untuk menjamin kualitas, keandalan, dan keamanan aplikasi dalam berbagai aspek fungsionalitas.
 
 ---
 
