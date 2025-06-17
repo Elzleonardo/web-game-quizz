@@ -1,4 +1,4 @@
-## 1. White Box Testing
+## White Box Testing
 White box testing dilakukan untuk memastikan bahwa logika dan alur dalam kode sumber aplikasi berjalan sesuai dengan yang diharapkan. Pada pengujian ini dilakukan pemeriksaan terhadap alur program, kondisi, percabangan, dan perulangan secara langsung dengan melihat kode program.
 
 ### Tabel: White Box Testing Function `login()`
